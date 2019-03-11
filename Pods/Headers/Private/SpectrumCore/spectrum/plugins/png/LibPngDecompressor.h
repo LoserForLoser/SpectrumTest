@@ -1,0 +1,1 @@
+../../../../../../SpectrumCore/cpp/spectrum/plugins/png/LibPngDecompressor.h

@@ -1,0 +1,1 @@
+../../../../../SpectrumCore/cpp/spectrum/requirements/Rotate.h

@@ -1,0 +1,10 @@
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/SpectrumKit
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/SpectrumKit" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SpectrumCore" "${PODS_ROOT}/Headers/Public/SpectrumKit" "${PODS_ROOT}/Headers/Public/libpng" "${PODS_ROOT}/Headers/Public/libwebp" "${PODS_ROOT}/Headers/Public/mozjpeg" "${PODS_ROOT}/Headers/Public/spectrum-folly"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/SpectrumCore" "${PODS_CONFIGURATION_BUILD_DIR}/libpng" "${PODS_CONFIGURATION_BUILD_DIR}/libwebp" "${PODS_CONFIGURATION_BUILD_DIR}/mozjpeg"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/SpectrumKit
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES

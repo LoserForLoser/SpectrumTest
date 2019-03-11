@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SpectrumCore" "${PODS_ROOT}/Headers/Public/SpectrumKit" "${PODS_ROOT}/Headers/Public/libpng" "${PODS_ROOT}/Headers/Public/libwebp" "${PODS_ROOT}/Headers/Public/mozjpeg" "${PODS_ROOT}/Headers/Public/spectrum-folly"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/SpectrumCore" "${PODS_CONFIGURATION_BUILD_DIR}/SpectrumKit" "${PODS_CONFIGURATION_BUILD_DIR}/libpng" "${PODS_CONFIGURATION_BUILD_DIR}/libwebp" "${PODS_CONFIGURATION_BUILD_DIR}/mozjpeg"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/SpectrumCore" -isystem "${PODS_ROOT}/Headers/Public/SpectrumKit" -isystem "${PODS_ROOT}/Headers/Public/libpng" -isystem "${PODS_ROOT}/Headers/Public/libwebp" -isystem "${PODS_ROOT}/Headers/Public/mozjpeg" -isystem "${PODS_ROOT}/Headers/Public/spectrum-folly"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"SpectrumCore" -l"SpectrumKit" -l"libpng" -l"libwebp" -l"mozjpeg" -l"stdc++" -l"z"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

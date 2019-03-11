@@ -1,0 +1,1 @@
+../../../SpectrumKit/ios/SpectrumKit/SpectrumKitPlugins/Webp/FSPWebpPlugin.h

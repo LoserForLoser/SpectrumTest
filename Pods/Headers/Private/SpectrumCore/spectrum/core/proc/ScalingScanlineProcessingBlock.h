@@ -1,0 +1,1 @@
+../../../../../../SpectrumCore/cpp/spectrum/core/proc/ScalingScanlineProcessingBlock.h

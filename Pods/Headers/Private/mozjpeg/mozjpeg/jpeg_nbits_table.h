@@ -1,0 +1,1 @@
+../../../../mozjpeg/jpeg_nbits_table.h

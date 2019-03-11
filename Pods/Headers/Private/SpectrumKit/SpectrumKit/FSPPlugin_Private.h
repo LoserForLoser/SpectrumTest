@@ -1,0 +1,1 @@
+../../../../SpectrumKit/ios/SpectrumKit/SpectrumKit/Private/FSPPlugin_Private.h

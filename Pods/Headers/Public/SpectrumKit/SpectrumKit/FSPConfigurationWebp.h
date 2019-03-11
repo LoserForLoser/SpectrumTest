@@ -1,0 +1,1 @@
+../../../../SpectrumKit/ios/SpectrumKit/SpectrumKit/Configuration/FSPConfigurationWebp.h

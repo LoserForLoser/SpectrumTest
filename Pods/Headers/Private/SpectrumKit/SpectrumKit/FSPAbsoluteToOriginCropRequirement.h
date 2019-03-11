@@ -1,0 +1,1 @@
+../../../../SpectrumKit/ios/SpectrumKit/SpectrumKit/Requirements/FSPAbsoluteToOriginCropRequirement.h

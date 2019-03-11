@@ -1,0 +1,1 @@
+../../../../../SpectrumCore/cpp/spectrum/image/Scanline.h

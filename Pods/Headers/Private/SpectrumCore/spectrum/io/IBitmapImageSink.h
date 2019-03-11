@@ -1,0 +1,1 @@
+../../../../../SpectrumCore/cpp/spectrum/io/IBitmapImageSink.h
